@@ -1,0 +1,10 @@
+# Initialize kernel
+#/run/numberOfThreads 6
+
+/run/initialize
+
+
+#Loop angle
+/control/loop runwithrot.mac rot -70 70 5
+
+#/control/loop runwithrot.mac rot -0 0 1

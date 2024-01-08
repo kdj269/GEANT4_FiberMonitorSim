@@ -1,0 +1,14 @@
+*.root
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.db
+*.ipch
+*.sln
+*.tlog
+*.lastbuildstate
+*.recipe
+*.obj
+*.vsidx
+*.bin
+*.suo

@@ -1,0 +1,21 @@
+#Pick geometry
+/detector/RotationSelector {rot}
+/detectorNoted/RotationSelector {rot}
+
+/detector/GeometrySelector 1
+/detectorNoted/GeometrySelector 1
+
+/detector/R0Selector 0.5
+/detectorNoted/R0Selector 0.5
+
+#/detector/R1Selector 0.41
+#/detectorNoted/R1Selector 0.41
+
+/detector/R2Selector 0.5
+/detectorNoted/R2Selector 0.5
+
+
+#run:
+/run/reinitializeGeometry True
+/run/beamOn 1000
+

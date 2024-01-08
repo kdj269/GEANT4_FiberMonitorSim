@@ -1,0 +1,30 @@
+#
+# Simply visualisation setup: note, you need to /run/initialize before
+#
+# Use this open statement to create an OpenGL view:
+/vis/open OGL
+
+# Draw the geometry
+/vis/drawVolume
+
+# Set the World volume invisible
+/vis/geometry/set/visibility logicWorld 0  false
+
+/vis/viewer/set/style wireframe
+
+
+/vis/geometry/set/colour logicalTubs 0 0 0 255 0.3
+/vis/viewer/set/style surface
+
+# Add axes (orientation) and a scale (size)
+#/vis/scene/add/axes
+#/vis/scene/add/scale
+
+# Add (smooth) trajectories
+#/vis/scene/add/trajectories smooth
+
+# Set to accumulate trajectories up to 100 events
+#/vis/scene/endOfEventAction accumulate 100
+
+# Set the view point in terms angles
+#/vis/viewer/set/viewpointThetaPhi -40 -50

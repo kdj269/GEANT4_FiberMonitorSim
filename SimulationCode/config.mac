@@ -1,0 +1,17 @@
+# Can be run in batch, without graphic
+# or interactively: Idle> /control/execute run1.mac
+#
+# Change the default number of workers (in multi-threading mode) 
+#/run/numberOfThreads 4
+#
+
+
+
+# Initialize kernel
+/run/initialize
+
+
+#run:
+/run/reinitializeGeometry True
+/run/beamOn 500
+

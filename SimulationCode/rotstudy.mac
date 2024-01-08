@@ -1,0 +1,7 @@
+# Initialize kernel
+/run/initialize
+
+
+#Loop angle
+/control/loop runwithrot.mac rot 45 55 1
+
